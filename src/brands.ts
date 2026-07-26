@@ -16,7 +16,7 @@ export type BrandMeta = {
 
 export const BRAND_META: Record<BrandKey, BrandMeta> = {
   nutty: { key: "nutty", label: "The Nutty Squirrel", shortLabel: "Nutty", domain: "thenuttysquirrel.co.uk" },
-  witty: { key: "witty", label: "The Witty Badger",   shortLabel: "Witty", domain: "wittybadger.co.uk" },
+  witty: { key: "witty", label: "The Witty Badger",   shortLabel: "Witty", domain: "thewittybadger.co.uk" },
 }
 
 export function isBrandKey(value: string | undefined | null): value is BrandKey {
