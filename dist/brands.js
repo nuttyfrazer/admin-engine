@@ -5,7 +5,7 @@
 export const BRAND_KEYS = ["nutty", "witty"];
 export const BRAND_META = {
     nutty: { key: "nutty", label: "The Nutty Squirrel", shortLabel: "Nutty", domain: "thenuttysquirrel.co.uk" },
-    witty: { key: "witty", label: "The Witty Badger", shortLabel: "Witty", domain: "wittybadger.co.uk" },
+    witty: { key: "witty", label: "The Witty Badger", shortLabel: "Witty", domain: "thewittybadger.co.uk" },
 };
 export function isBrandKey(value) {
     return value === "nutty" || value === "witty";
