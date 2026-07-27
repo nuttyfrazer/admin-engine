@@ -1,6 +1,6 @@
 {
   "name": "@retail/admin-engine",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Shared retail admin engine (blog + product) for The Nutty Squirrel and The Witty Badger. Brand-agnostic; the host injects a Supabase client per brand.",
   "type": "module",
